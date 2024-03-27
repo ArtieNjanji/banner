@@ -1,0 +1,182 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: linear-gradient(to bottom right, #03787c, #514b9e);
+  gap: 10;
+}
+
+.mainIMG {
+  width: 450px;
+  height: 220px;
+  object-fit: cover;
+  opacity: 0.3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 0.3rem;
+  margin-right: 20px;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: #fff;
+}
+
+.skills {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.python {
+  width: 50px;
+  height: 55px;
+  padding: 3px;
+}
+
+.java {
+  width: 45px;
+  height: 55px;
+  padding: 3px;
+}
+
+.js {
+  width: 55px;
+  height: 50px;
+  padding: 3px;
+}
+
+.react {
+  width: 60px;
+  height: 55px;
+  padding: 3px;
+}
+
+.node {
+  width: 75px;
+  height: 55px;
+  padding: 3px;
+}
+
+.sqlServer {
+  width: 70px;
+  height: 55px;
+  padding: 3px;
+}
+
+.css {
+  width: 45px;
+  height: 55px;
+  padding: 3px;
+}
+
+.html {
+  width: 60px;
+  height: 55px;
+  padding: 3px;
+}
+
+.mongo {
+  width: 130px;
+  height: 55px;
+  padding: 3px;
+}
+
+.flutter {
+  width: 60px;
+  height: 55px;
+  padding: 3px;
+}
+
+.git {
+  width: 60px;
+  height: 55px;
+  padding: 3px;
+}
+
+.power {
+  width: 60px;
+  height: 55px;
+  padding: 3px;
+}
+
+p {
+  align-self: center;
+  font-size: 1rem;
+  color: #633A36;
+  margin: 0.5rem;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+  padding-left: 30px;
+  padding-top: 20px;
+  letter-spacing: 10px;
+  font-family: 'castellar', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  letter-spacing: 5px;
+  font-family: monospace;
+  align-self: flex-start;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* padding-left: 80px; */
+}
+
+.user {
+  background-image: url('assets/code1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 250px;
+  opacity: 0.5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  position: absolute;
+
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 85px;
+  left: 350px;
+}
